@@ -31,6 +31,8 @@ public class CalculatorSubstraction {
         int lNumb = scanner1.nextInt();
 
         int result = substraction(fNumb, lNumb);
+
+        System.out.println("Your number gonna be "+result);
     }
 
     public static int substraction(int first, int second) {
