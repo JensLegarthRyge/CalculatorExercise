@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class CalculatorSubstraction {
     public static void main(String[] args) {
         //Minus lommeregner
+        //Version 1 (Med void)
        /* System.out.println("Welcome to the substraction calculator");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write your first number here: ");
@@ -21,7 +22,7 @@ public class CalculatorSubstraction {
         System.out.println("Your result gonna be "+result);
 */
 
-
+        //Version 2 (Uden void)
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write your first number here: ");
         int fNumb = scanner.nextInt();
