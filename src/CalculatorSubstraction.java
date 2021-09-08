@@ -9,10 +9,7 @@ public class CalculatorSubstraction {
         System.out.println("Andet nummer ind her: ");
         int lNumb = scanner1.nextInt();
 
-
-
-
-
+        subtraction(fNumb,lNumb);
 
     }
     public static void subtraction(int first, int second){
