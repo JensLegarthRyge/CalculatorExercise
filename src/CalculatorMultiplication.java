@@ -5,17 +5,17 @@ public class CalculatorMultiplication {
         Scanner scanner = new Scanner(System.in);
         System.out.println("You are now in the multiplication tab");
         System.out.println("Please enter your first number");
-        double valueOne = scanner.nextDouble();
+        int valueOne = scanner.nextInt();
         System.out.println("Please enter your second number to multiply");
-        double valueTwo = scanner.nextDouble();
+        int valueTwo = scanner.nextInt();
 
         System.out.println("Your number is gonna be " + multiply(valueOne,valueTwo));
 
 
 
     }
-    public static String multiply (double valueOne, double valueTwo) {
-        double calculate = valueOne * valueTwo;
-        return String.format("%.2f",calculate);
+    public static int multiply (int valueOne, int valueTwo) {
+        int calculate = valueOne * valueTwo;
+        return calculate;
     }
 }
