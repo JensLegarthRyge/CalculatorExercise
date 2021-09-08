@@ -1,12 +1,14 @@
 import java.util.Scanner;
 public class CalculatorSubstraction {
     public static void main(String[] args) {
+        //Minus lommeregner
+        System.out.println("Welcome to the substraction calculator");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Første nummer ind her: ");
+        System.out.println("Write your first number here: ");
         int fNumb = scanner.nextInt();
 
         Scanner scanner1 = new Scanner(System.in);
-        System.out.println("Andet nummer ind her: ");
+        System.out.println("Write your second number here: ");
         int lNumb = scanner1.nextInt();
 
         subtraction(fNumb,lNumb);
