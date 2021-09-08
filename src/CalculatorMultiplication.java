@@ -11,7 +11,7 @@ public class CalculatorMultiplication {
         int valueTwo = scanner.nextInt();
 
         System.out.println("Result equals: " + multiply(valueOne,valueTwo));
-
+//
 
 
     }
