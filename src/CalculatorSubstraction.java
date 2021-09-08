@@ -30,10 +30,12 @@ public class CalculatorSubstraction {
         System.out.println("Write your second number here: ");
         int lNumb = scanner1.nextInt();
 
-        int result = substraction(fNumb,lNumb);
+        int result = substraction(fNumb, lNumb);
     }
-    public static int substraction(int first, int second){
 
+    public static int substraction(int first, int second) {
 
+        int result2 = first-second;
+    return result2;
     }
 }
