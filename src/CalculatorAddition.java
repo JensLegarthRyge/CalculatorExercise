@@ -8,10 +8,10 @@ public class CalculatorAddition {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("//////////// LOMMEREGNER ////////////"+"\n"+
-                "Indtast dit første tal: ");
+                "Provide first value: ");
         int firstValue = scanner.nextInt();
-        System.out.println("Indtast dit næste tal: ");
+        System.out.println("Provide second value: ");
         int secondValue = scanner.nextInt();
-        System.out.println("Resultatet er: "+add(firstValue,secondValue));
+        System.out.println("Result equals: "+add(firstValue,secondValue));
     }
 }
